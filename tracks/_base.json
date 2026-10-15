@@ -1,0 +1,55 @@
+{
+  "_说明": "所有赛道共用的默认参数。赛道文件 tracks/<赛道>.json 只写需要覆盖的字段；单条视频的 job.json 里也可以写 overrides 再覆盖一次。",
+  "name": "_base",
+  "canvas": [1080, 1920],
+  "image_aspect": "9:16",
+  "image_fit": "cover",
+  "background_color": "#000000",
+
+  "voice": {"speaker": "zh_male_iclvop_xiaolinkepu", "speed": 1.05, "group_chars": 180},
+
+  "copy_style": "知识科普",
+  "image_style": {"name": "", "jimeng": "", "mj": ""},
+  "shots": {"count": "12-16", "chars_per_shot": "18-35", "total_chars": "260-380"},
+
+  "opening": {
+    "type": "flash",
+    "flash_images": 5,
+    "flash_frames": 10,
+    "sfx": "assets/sfx/flash.wav",
+    "sfx_volume": 0.8,
+    "hook_style": {"font": "优设标题黑", "size": 13, "color": "#FFF9F1", "border_color": "#000000", "border_width": 60, "y": 0.0, "max_line_width": 0.82, "anim_in": "弹入"}
+  },
+
+  "first_effects": ["震动屏闪"],
+  "ken_burns": {"enabled": true, "zoom": 1.12, "pan": 0.04},
+
+  "subtitle": {
+    "font": "优设标题黑", "size": 9, "color": "#FFFFFF",
+    "border_color": "#000000", "border_width": 40,
+    "background": null,
+    "y": -0.55, "max_line_width": 0.86,
+    "highlight_first": true,
+    "anim_in": null
+  },
+
+  "header": {
+    "enabled": true,
+    "text": "{series}",
+    "font": "优设标题黑", "size": 12, "color": "#FFE14D",
+    "border_color": "#000000", "border_width": 50,
+    "y": 0.72, "max_line_width": 0.9
+  },
+  "tag": {
+    "_说明": "对照表第 4 列（书名 / Day N / 作者）显示的位置",
+    "font": "优设标题黑", "size": 8, "color": "#FFFFFF",
+    "border_color": "#000000", "border_width": 30,
+    "y": 0.58
+  },
+
+  "ending": {"text": "", "seconds": 2.5, "font": "优设标题黑", "size": 10, "color": "#FFE14D", "y": 0.15},
+  "disclaimer": {"text": "内容由AI生成", "size": 4.5, "x": -0.62, "y": 0.9, "alpha": 0.75},
+
+  "bgm": {"dir": "", "volume": 0.12, "fade_out": 1.5},
+  "series": ""
+}

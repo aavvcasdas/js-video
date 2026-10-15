@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+config.json
+# 每条视频的工作目录（图片、AI 回复、draft.json）默认不进 git；示例除外
+jobs/*
+!jobs/_示例/
+# BGM 有版权，自己放，不提交
+assets/bgm/**/*.mp3
+assets/bgm/**/*.wav
+assets/bgm/**/*.m4a

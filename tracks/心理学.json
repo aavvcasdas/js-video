@@ -1,0 +1,26 @@
+{
+  "name": "心理学",
+  "_参考": "版式：Pixelle image_psychology_card（黑底 + 中间方图 + 上标题下文字）；画面：InsightCut「治愈系」+ Pixelle「concept 概念隐喻」",
+  "series": "心理学干货",
+  "copy_style": "温暖治愈 + 专业严谨：先说出观众的感受，再给心理学概念（可引用荣格、阿德勒、卡巴金等），用生活例子解释，最后给一个能马上做的小方法",
+  "image_aspect": "1:1",
+  "image_fit": "contain",
+  "background_color": "#0A0A0A",
+  "image_style": {
+    "name": "治愈系概念插画（InsightCut 治愈系 + Pixelle concept）",
+    "jimeng": "日系治愈插画，柔和马卡龙色，温暖阳光，安静梦幻，象征性视觉隐喻，单一主体，简洁构图，大面积留白，人物只出现背影或剪影不露脸，高调明亮，无文字",
+    "mj": "soft pastel colors, warm sunlight, peaceful, dreamy, Studio Ghibli inspired, conceptual visual metaphor, symbolic elements, single subject, generous negative space, faceless figure from behind, high-key bright, no text",
+    "备选": ["极简抽象（Pixelle minimal）：minimalist abstract art, geometric shapes, clean composition, modern design, soft pastel colors"]
+  },
+  "shots": {"count": "10-14", "chars_per_shot": "20-40", "total_chars": "280-400"},
+  "voice": {"speaker": "zh_female_inspirational", "speed": 1.0},
+  "opening": {"type": "hook", "sfx": "", "hook_style": {"font": "仓耳舒圆体W02", "size": 11, "color": "#FFFFFF", "y": 0.0, "anim_in": "渐显"}},
+  "first_effects": ["变清晰"],
+  "ken_burns": {"enabled": true, "zoom": 1.06, "pan": 0.0},
+  "subtitle": {"font": "仓耳舒圆体W02", "size": 8, "color": "#FEFEFE", "border_width": 20, "y": -0.74, "highlight_first": false},
+  "header": {"text": "{title}", "font": "优设标题黑", "size": 10, "color": "#FFFFFF", "border_width": 0, "y": 0.8},
+  "tag": {"y": 0.66, "color": "#F5C26B"},
+  "ending": {"text": "关注我 一起好好爱自己", "color": "#F5C26B", "y": -0.88, "size": 7},
+  "disclaimer": {"text": "AI生成 仅供参考 不构成诊断建议"},
+  "bgm": {"dir": "assets/bgm/心理学", "volume": 0.1}
+}

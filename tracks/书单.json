@@ -1,0 +1,26 @@
+{
+  "name": "书单",
+  "_参考": "版式：Pixelle image_book（顶部书名 + 下方插画 + 作者）；画面：InsightCut「油彩画」+ 治愈系",
+  "series": "每周一本好书",
+  "copy_style": "温暖感人 + 知识科普：用痛点开场（例如“精神内耗的人一定要看”），每本书讲一个最戳人的观点和一个金句，书名和作者必须真实存在",
+  "image_aspect": "3:4",
+  "image_fit": "contain",
+  "background_color": "#1A1A1A",
+  "image_style": {
+    "name": "暖光油画阅读风（InsightCut 油彩画 + 治愈系）",
+    "jimeng": "温暖治愈系油画风插画，暖黄色台灯光，书桌与书本，窗边阅读场景，人物背影不露脸，可见笔触，油画质感，画面明亮温馨，构图上方留白，无文字无书名",
+    "mj": "oil painting, visible brush strokes, rich warm colors, painterly texture, cozy reading scene by the window, desk lamp warm light, books, faceless figure from behind, bright and warm, empty space at top, no text, no book titles"
+  },
+  "shots": {"count": "10-14", "chars_per_shot": "20-40", "total_chars": "280-400"},
+  "voice": {"speaker": "ICL_zh_female_jilupianxq2", "speed": 1.0},
+  "opening": {"type": "hook", "hook_style": {"font": "站酷文艺体", "size": 12, "color": "#FFFFFF", "y": 0.0, "anim_in": "渐显"}},
+  "first_effects": ["变清晰"],
+  "ken_burns": {"enabled": true, "zoom": 1.06, "pan": 0.02},
+  "subtitle": {"font": "仓耳舒圆体W02", "size": 8, "color": "#FFFFFF", "border_width": 20, "y": -0.6,
+               "background": {"color": "#000000", "alpha": 0.45, "round_radius": 0.3}, "highlight_first": false},
+  "header": {"text": "{title}", "font": "站酷文艺体", "size": 9, "color": "#FFFFFF", "border_width": 0, "y": 0.87},
+  "tag": {"font": "站酷文艺体", "size": 11, "color": "#FFE7B3", "border_width": 40, "y": 0.6},
+  "ending": {"text": "书单已整理 评论区自取", "color": "#FFE7B3", "y": -0.88, "size": 7},
+  "disclaimer": {"text": "AI生成画面 · 内容以原书为准", "y": 0.94},
+  "bgm": {"dir": "assets/bgm/书单", "volume": 0.12}
+}

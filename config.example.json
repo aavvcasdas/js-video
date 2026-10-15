@@ -1,0 +1,24 @@
+{
+  "_说明": "复制一份改名为 config.json 再修改（config.json 不会提交到 git）。字段解释见 README「配置」一节。",
+
+  "drafts_root": "",
+  "copy_media_into_draft": true,
+  "overwrite_same_name": true,
+  "draft_name_template": "{track}_{title}_{datetime}",
+
+  "llm": {
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "",
+    "model": "deepseek-chat",
+    "temperature": 0.8
+  },
+
+  "image": {
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "api_key": "",
+    "model": "doubao-seedream-4-0-250828",
+    "size": "1440x2560",
+    "size_by_aspect": {"9:16": "1440x2560", "1:1": "2048x2048", "3:4": "1728x2304"},
+    "extra": {"watermark": false}
+  }
+}

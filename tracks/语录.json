@@ -1,0 +1,23 @@
+{
+  "name": "语录",
+  "_参考": "版式：Pixelle image_excerpt / image_life_insights（书法标题 + 宋体正文 + 作者署名）；画面：InsightCut「电影胶片」",
+  "series": "深夜清醒语录",
+  "copy_style": "深度思考 + 温暖感人：每镜一句名人原话，配一两句白话解读，语气克制、不鸡汤；出处必须真实，拿不准就不署名",
+  "image_style": {
+    "name": "电影胶片意境（InsightCut 电影胶片）",
+    "jimeng": "电影胶片质感，35毫米胶片颗粒，复古调色，安静有意境的画面，人物背影或远景剪影不露脸，大面积留白，柔和自然光，画面明亮通透，无文字",
+    "mj": "film grain, cinematic, anamorphic lens, vintage color grading, 35mm film, quiet poetic scene, faceless silhouette from behind or distant figure, generous negative space, soft natural light, bright and airy, no text",
+    "备选": ["水墨国风：Chinese ink painting, traditional brush strokes, misty mountains, elegant, minimalist"]
+  },
+  "shots": {"count": "8-12", "chars_per_shot": "15-40", "total_chars": "200-320"},
+  "voice": {"speaker": "zh_male_iclvop_miaojijsqinggan", "speed": 0.95},
+  "opening": {"type": "hook", "sfx": "", "hook_style": {"font": "毛笔行楷", "size": 14, "color": "#FFFFFF", "border_width": 20, "y": 0.1, "anim_in": "渐显"}},
+  "first_effects": ["变清晰"],
+  "ken_burns": {"enabled": true, "zoom": 1.08, "pan": 0.02},
+  "subtitle": {"font": "宋体", "size": 9.5, "color": "#FFFFFF", "border_width": 25, "y": -0.1, "highlight_first": false, "anim_in": "渐显"},
+  "header": {"text": "{series}", "font": "毛笔行楷", "size": 12, "color": "#FFFFFF", "border_width": 20, "y": 0.74},
+  "tag": {"font": "毛笔行楷", "size": 8, "color": "#E8D9B5", "border_width": 20, "y": -0.32},
+  "ending": {"text": "关注我 每晚一句清醒话", "font": "宋体", "size": 7, "color": "#E8D9B5", "y": -0.6},
+  "disclaimer": {"text": "AI生成画面 · 出处见评论区"},
+  "bgm": {"dir": "assets/bgm/语录", "volume": 0.14}
+}

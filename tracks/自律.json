@@ -1,0 +1,22 @@
+{
+  "name": "自律",
+  "_参考": "文案：InsightCut「观点犀利」+ Pixelle 话题旁白「共鸣→观点→解释→启发」；画面：InsightCut「电影质感」",
+  "series": "自律打卡",
+  "day": 1,
+  "copy_style": "观点犀利 + 励志向上：扎心开头，拒绝空喊口号；给具体方法（时间点、数字、步骤），结尾邀请观众今天一起打卡",
+  "image_style": {
+    "name": "电影质感（InsightCut 电影质感）",
+    "jimeng": "电影剧照质感，戏剧性构图，清晨或深夜的自律场景，人物背影或手部特写不露脸，书桌台灯、跑道、健身房、闹钟、笔记本，冷暖对比光，画面清晰明亮，细节丰富，无文字",
+    "mj": "cinematic lighting, film still, dramatic composition, high detail, faceless figure from behind or hands close-up, desk lamp, running track, gym, alarm clock, notebook, teal and orange contrast, bright and clear, no text"
+  },
+  "shots": {"count": "10-14", "chars_per_shot": "18-35", "total_chars": "260-360"},
+  "voice": {"speaker": "ICL_zh_male_jilupianjmh", "speed": 1.1},
+  "opening": {"type": "flash", "hook_style": {"font": "庞门正道标题体", "color": "#FFD400"}},
+  "first_effects": ["幻彩故障", "震动屏闪"],
+  "ken_burns": {"enabled": true, "zoom": 1.15, "pan": 0.05},
+  "subtitle": {"font": "庞门正道标题体", "size": 9.5, "color": "#FFFFFF", "y": -0.55},
+  "header": {"text": "{series} Day {day}", "font": "庞门正道标题体", "color": "#FFD400"},
+  "ending": {"text": "明天早上6点 继续打卡", "color": "#FFD400"},
+  "disclaimer": {"text": "内容由AI生成"},
+  "bgm": {"dir": "assets/bgm/自律", "volume": 0.15}
+}

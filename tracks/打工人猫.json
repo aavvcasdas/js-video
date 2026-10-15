@@ -1,0 +1,23 @@
+{
+  "name": "打工人猫",
+  "_参考": "文案：InsightCut「幽默轻松」+ 抖音猫 meme 作文体；画面：Pixelle image_satirical_cartoon（讽刺漫画）+ 你 分镜提示词.txt 里的 ⑥3D盲盒风 / ⑦日系轻喜剧风；配音用「曼波」",
+  "series": "打工猫的一天",
+  "copy_style": "幽默轻松 + 讽刺：第二人称“你”，打工人日常的荒诞细节（周一、开会、画饼、加班、工资到账秒没），短句、有反转，结尾一句扎心又好笑的话",
+  "character": "橘色短毛猫，圆脸，大眼睛，戴黑框眼镜，浅蓝色衬衫配红色领带，脖子上挂工牌",
+  "image_style": {
+    "name": "3D盲盒猫打工人（你的⑥3D盲盒风）",
+    "jimeng": "3D盲盒手办风格，Q版圆润比例的猫咪打工人，夸张漫画式表情，办公室工位、电脑、咖啡杯、地铁、会议室等场景，马卡龙配色，柔和明亮影棚光，微缩场景，画面明亮，无文字",
+    "mj": "3D blind box figurine style, chibi cat office worker, exaggerated comedic expression, office cubicle, laptop, coffee cup, subway, meeting room, macaron color palette, soft bright studio lighting, miniature diorama scene, pop mart toy aesthetic, no text",
+    "备选": ["日系轻喜剧动画（你的⑦）：日系轻喜剧动画画风，纤细线条，清透明亮配色，夸张漫画式表情与汗滴符号，赛璐璐上色"]
+  },
+  "shots": {"count": "10-16", "chars_per_shot": "12-30", "total_chars": "200-320"},
+  "voice": {"speaker": "ICL_zh_female_manbo_jianying", "speed": 1.1},
+  "opening": {"type": "flash", "hook_style": {"font": "汉仪贤二体", "color": "#FFFFFF"}},
+  "first_effects": ["震动屏闪"],
+  "ken_burns": {"enabled": true, "zoom": 1.12, "pan": 0.04},
+  "subtitle": {"font": "汉仪贤二体", "size": 9.5, "color": "#FFFFFF", "border_width": 50, "y": -0.55},
+  "header": {"text": "{series}", "font": "庞门正道轻松体", "color": "#FFB800"},
+  "ending": {"text": "打工人 下班了吗 扣个1", "color": "#FFB800"},
+  "disclaimer": {"text": "虚构剧情 · AI生成"},
+  "bgm": {"dir": "assets/bgm/打工人猫", "volume": 0.12}
+}

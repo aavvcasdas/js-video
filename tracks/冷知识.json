@@ -1,0 +1,21 @@
+{
+  "name": "冷知识",
+  "_参考": "文案：InsightCut「知识科普」+ Pixelle 话题旁白规则；画面：InsightCut「毛毡风」（它展厅里《小岛经济学》用的就是这个）",
+  "series": "你不知道的冷知识",
+  "copy_style": "知识科普：反常识开头，一镜一个信息点，口语化，数字具体，结尾抛问题引导评论",
+  "image_style": {
+    "name": "毛毡微缩风（InsightCut 毛毡风）",
+    "jimeng": "毛毡手工艺风格插画，羊毛毡质感，可爱扁平造型，柔软触感表面，温暖马卡龙色调，微缩场景模型感，高调明亮画面，主体居中清晰，背景简洁，无文字",
+    "mj": "felt craft art style, handmade felt texture, wool fabric, cute flat illustration, soft tactile surface, warm pastel tones, cozy miniature diorama look, high-key bright, centered subject, simple background, no text",
+    "备选": ["3D动画：3D animated film style, stylized characters, soft lighting, detailed environment", "吉卜力：soft pastel colors, warm sunlight, peaceful, dreamy, Studio Ghibli inspired"]
+  },
+  "shots": {"count": "10-14", "chars_per_shot": "20-40", "total_chars": "260-380"},
+  "voice": {"speaker": "zh_male_iclvop_xiaolinkepu", "speed": 1.1},
+  "opening": {"type": "flash"},
+  "first_effects": ["震动屏闪"],
+  "subtitle": {"font": "优设标题黑", "size": 9, "color": "#FFFFFF", "y": -0.55},
+  "header": {"text": "{series}", "font": "优设标题黑", "color": "#FFE14D"},
+  "ending": {"text": "关注我 每天涨一个冷知识"},
+  "disclaimer": {"text": "内容由AI生成 仅供参考"},
+  "bgm": {"dir": "assets/bgm/冷知识", "volume": 0.12}
+}

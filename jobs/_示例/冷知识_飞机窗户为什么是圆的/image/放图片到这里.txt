@@ -1,0 +1,1 @@
+把 shot_01.jpg ~ shot_10.jpg 放到这里。想先看版式可以运行：python new_job.py --placeholder "jobs/_示例/冷知识_飞机窗户为什么是圆的"
