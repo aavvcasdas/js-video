@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Local builds and generated video artifacts
+build/
+dist/
+*.egg-info/
+output/
+**/output/
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Generated/user-provided media for agent projects (keep source manifests instead)
+projects/*/assets/
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.flac

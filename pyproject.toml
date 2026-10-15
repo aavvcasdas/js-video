@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pixelle-arena-video"
+version = "0.1.0"
+description = "Agent-native short-video production using Arena tools and Pixelle-Video templates"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Arena Agent adaptation" }]
+dependencies = []
+
+[project.optional-dependencies]
+render = ["playwright>=1.49"]
+draft = ["pymediainfo>=6.1"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+pixelle-video = "pixelle_agent.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pixelle_agent", "vendor"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"templates" = "templates"
+"project.schema.json" = "project.schema.json"
+"NOTICE" = "NOTICE"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["vendor/**"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

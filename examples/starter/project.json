@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project": {
+    "title": "短视频样例项目",
+    "language": "zh-CN",
+    "author": ""
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "template": "1080x1920/image_default.html",
+    "output": "output/starter.mp4"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "短视频样例项目",
+      "narration": "开场：用一句话说明主题，并告诉观众接下来会看到什么。",
+      "caption": "先用一句话抓住注意力",
+      "image_prompt": "竖屏 9:16，电影级写实摄影，干净构图，柔和自然光；画面聚焦主题主体，不要任何文字、字幕、标志或水印。",
+      "image": "assets/scenes/scene-01.png",
+      "duration": 4.5
+    },
+    {
+      "id": "scene-02",
+      "title": "短视频样例项目",
+      "narration": "主体：用两到三句清晰、经过核验的语言，解释最重要的信息。",
+      "caption": "把核心信息说清楚",
+      "image_prompt": "竖屏 9:16，和上一镜保持一致的摄影风格与色彩；用一个清晰主体表现核心信息，不要任何文字、字幕、标志或水印。",
+      "image": "assets/scenes/scene-02.png",
+      "duration": 5.0
+    },
+    {
+      "id": "scene-03",
+      "title": "短视频样例项目",
+      "narration": "收尾：简短总结，并用自然的一句话结束视频。",
+      "caption": "总结并自然收尾",
+      "image_prompt": "竖屏 9:16，保持整支视频的同一视觉风格；构图有明确的收尾感和留白，不要任何文字、字幕、标志或水印。",
+      "image": "assets/scenes/scene-03.png",
+      "duration": 4.0
+    }
+  ],
+  "sources": []
+}

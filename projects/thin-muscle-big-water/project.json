@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": {
+    "title": "薄肌大水：别把热梗当处方",
+    "language": "zh-CN",
+    "author": ""
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "template": "1080x1920/image_full.html",
+    "output": "output/thin-muscle-big-water.mp4"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "薄肌大水？",
+      "narration": "最近刷到“薄肌大水”？先别把热梗当成健康处方。",
+      "caption": "先别当成健康处方",
+      "image_prompt": "竖屏9:16原创日系动画插画：成年女性动漫角色，短深色发、青绿色运动上衣、深灰运动裤，在温暖明亮的居家健身角落拿着无刻度透明水瓶和运动鞋；角色和物件居中，顶部与底部留出暗色低细节空间用于后期字幕。清晰线稿、柔和赛璐璐上色、纸感纹理，鼠尾草绿、琥珀、奶油白与炭灰色调。非真人、非照片、无文字数字、无标志水印。",
+      "image": "assets/scenes/scene-01.png",
+      "duration": 5.9,
+      "audio": "assets/audio/scene-01.mp3"
+    },
+    {
+      "id": "scene-02",
+      "title": "薄肌是审美",
+      "narration": "薄肌是偏清爽、有肌肉的网络审美，不是医学标准。只变瘦，不等于练出肌肉。",
+      "caption": "不等于只靠变瘦",
+      "image_prompt": "竖屏9:16原创日系动画插画，延续同一成年女性动漫角色（短深色发、青绿色运动上衣、深灰运动裤），她在健身房镜前自然看向一对哑铃，姿态自信放松、体态健康，不出现体重秤或软尺。清晰线稿、柔和赛璐璐上色、温暖自然光和统一的鼠尾草绿、琥珀、奶油白、炭灰配色。顶部与底部留出较暗的字幕空间。非真人、非照片、无文字数字、无标志水印。",
+      "image": "assets/scenes/scene-02.png",
+      "duration": 8.8,
+      "audio": "assets/audio/scene-02.mp3"
+    },
+    {
+      "id": "scene-03",
+      "title": "练肌不只看体重",
+      "narration": "想更有力量，别只盯体重。世卫组织建议成年人，每周至少两天锻炼主要肌群。",
+      "caption": "WHO：主要肌群每周≥2天",
+      "image_prompt": "竖屏9:16原创日系动画插画，同一成年女性动漫角色（短深色发、青绿色运动上衣、深灰运动裤）在社区健身房以适中重量规范做单臂哑铃划船；动作稳定自然，不夸张展示肌肉。清晰线稿、柔和赛璐璐上色、微妙纸感纹理、温暖窗光，统一鼠尾草绿、琥珀、奶油白、炭灰配色。顶部与底部留出暗色低细节字幕空间。非真人、非照片、无文字数字、无标志水印。",
+      "image": "assets/scenes/scene-03.png",
+      "duration": 8.4,
+      "audio": "assets/audio/scene-03.mp3"
+    },
+    {
+      "id": "scene-04",
+      "title": "2升不是人人必喝",
+      "narration": "大瓶水是个提醒，但两升不是人人必喝。参考总水摄入包含食物和饮品；天气、活动量也会改变需要。",
+      "caption": "总水摄入包含食物和饮品",
+      "image_prompt": "竖屏9:16原创日系动画插画，同一成年女性动漫角色（短深色发、青绿色上衣）坐在温暖的家中餐桌旁，桌面有一碗汤、茶、水果和蔬菜，画面表达水分也来自食物和不同饮品，而非一个固定容量的水瓶。清晰线稿、柔和赛璐璐上色、温暖窗光，统一鼠尾草绿、琥珀、奶油白、炭灰配色。顶部与底部留出暗色低细节字幕空间。非真人、非照片、无刻度、无文字数字、无标志水印。",
+      "image": "assets/scenes/scene-04.png",
+      "duration": 11.3,
+      "audio": "assets/audio/scene-04.mp3"
+    },
+    {
+      "id": "scene-05",
+      "title": "别为了打卡猛灌",
+      "narration": "长时间运动，别为了打卡强灌；过量饮水可能增加低钠风险。把梗当提醒：规律练、好好吃、按需喝。",
+      "caption": "过量饮水有低钠风险｜CDC",
+      "image_prompt": "竖屏9:16原创日系动画插画，同一成年女性动漫角色（短深色发、青绿色运动上衣、深灰运动裤）在温暖天气的树荫下，完成轻度户外步行后平静休息并自然小口喝水；状态舒适、没有不适或医疗急症。清晰线稿、柔和赛璐璐上色、柔和树影，统一鼠尾草绿、琥珀、奶油白、炭灰配色。人物居中，顶部与底部留出暗色低细节字幕空间。非真人、非照片、无文字数字、无标志水印。",
+      "image": "assets/scenes/scene-05.png",
+      "duration": 11.5,
+      "audio": "assets/audio/scene-05.mp3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "聊聊最近很火的几个邪修理论（趋势背景；2026-10-12）— 虎嗅",
+      "url": "https://www.huxiu.com/article/4896970.html",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "title": "Physical activity — World Health Organization",
+      "url": "https://www.who.int/initiatives/behealthy/physical-activity",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "title": "Report Sets Dietary Intake Levels for Water — National Academies",
+      "url": "https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "title": "Heat and Cold Illness in Travelers, Exercise-induced hyponatremia — CDC Yellow Book 2026",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+      "accessed_on": "2026-10-15"
+    }
+  ]
+}

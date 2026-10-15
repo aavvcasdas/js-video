@@ -1,0 +1,10 @@
+This distribution includes static HTML image-card templates from ATH-MaaS/Pixelle-Video.
+
+Pixelle-Video
+Copyright (C) 2025 AIDC-AI
+Source: https://github.com/ATH-MaaS/Pixelle-Video
+The retained template assets are licensed under Apache License 2.0; see LICENSE.
+
+The optional Jianying draft support vendors a subset of pyJianYingDraft from the referenced auto-catvideo repository. Its separate MIT license and source attribution are retained at vendor/pyJianYingDraft/LICENSE and in UPSTREAM.md.
+
+This adaptation does not include Pixelle-Video's Streamlit/FastAPI applications, model/provider clients, or their third-party dependencies. Their upstream dependency notices are therefore not part of this reduced distribution.
