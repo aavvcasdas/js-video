@@ -6,7 +6,7 @@
 //
 // Segment starts are film *beats* B(k) = 0.21 + k·60/88, so the film's own internal cuts also stay
 // on the 118 grid. Song cuts are on the 118 grid: t = 0.05 + b·60/118.
-const SLOW = 118 / 88;                     // film seconds per song second
+const SLOW = 118 / 88;                     // film seconds per song second (= 88 BPM -> 118 BPM)
 const SONG0 = 0.05, SONG_BEAT = 60 / 118;  // our downbeat grid
 const FILM0 = 0.21, FILM_BEAT = 60 / 88;   // the film's downbeat grid
 const tSong = n => SONG0 + n * SONG_BEAT;
@@ -33,6 +33,10 @@ const CUTS = [
   [59.5, 222 ]   // 30.30 the house curtain falls on the big 潮汐 title
 ];
 
+// A few shots open with a full-frame flash / iris. Because the film runs 1.34x faster than our
+// song clock, that entrance would otherwise roll over the downbeat the lyric starts on. Start those
+// shots a little early (LEAD, in beats) so the frame is fully painted by the downbeat.
+const LEAD = { 32: 2.0 };                  // 16.32 蓝色的海底 — this shot opens on a full-frame flash, start it early
 const INTRO_RATE = .63;                    // the title card holds through the 2 s intro
 function SCENE_T(t) {
   if (t < SONG0 + 4 * SONG_BEAT) return clamp(FILM0 + (t - SONG0) * INTRO_RATE, 0, 156.55);
@@ -40,7 +44,9 @@ function SCENE_T(t) {
   let i = 0;
   while (i + 1 < CUTS.length && beats >= CUTS[i + 1][0]) i++;
   const [b, f] = CUTS[i];
-  return clamp(tFilm(f) + (beats - b) * SLOW * FILM_BEAT, 0, 156.55);
+  // one song beat must advance exactly one film beat: SLOW * SONG_BEAT === FILM_BEAT
+  const lead = LEAD[b] || 0;               // frames of that shot's own intro played before the downbeat
+  return clamp(tFilm(f) + (beats - b) * SLOW * SONG_BEAT + lead * SLOW * SONG_BEAT, 0, 156.55);
 }
 
 if (location.search.includes('raw')) window.SCENE_T = t => t;   // ?raw — preview the film itself
