@@ -8,7 +8,9 @@ const CH = [];
 function chapter(name, start, end, shots) { CH.push({ name, start, end, shots }); CH.sort((a, b) => a.start - b.start); }
 
 // Chapter breaks that get a brush wipe (cover by the boundary, reveal after it).
-const WIPES = [16.32, 24.454];   // chapter wipes land on our chorus downbeats: 卡点
+// The two chorus downbeats (16.32 s, 24.454 s) are deliberately hard cuts: a wipe covers the
+// frame for ~0.6 s and would swallow the beat, so the new scene is revealed exactly on the beat.
+const WIPES = [];
 const WIPE_TR = .3;
 
 const METER = [[16.32, 28.52, 6, 99.9]];   // the meter climbs through our chorus
